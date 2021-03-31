@@ -1,0 +1,5 @@
+#######################################################
+Server = http://joker.seedhost.eu/pheonix/$repo/$arch
+Server = http://packages.hefftor.xyz/$repo/$arch
+Server = https://bradheff.github.io/$repo/$arch
+Server = https://bradheff83.gitlab.io/$repo/$arch

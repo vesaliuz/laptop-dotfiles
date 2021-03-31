@@ -1,0 +1,13 @@
+##                                          ##
+#       EndeavourOS Repository Mirrorlist    #
+##                                          ##
+
+#[endeavouros]
+#SigLevel = PackageRequired
+#Include = /etc/pacman.d/endeavouros-mirrorlist
+
+# Github
+Server = https://github.com/endeavouros-team/mirrors/releases/download/mirror1/
+Server = https://github.com/endeavouros-team/mirrors/releases/download/mirror2/
+
+

@@ -1,0 +1,19 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a device; this may
+# be used with UUID= as a more robust way to name devices that works even if
+# disks are added and removed. See fstab(5).
+#
+# <file system>             <mount point>  <type>  <options>  <dump>  <pass>
+UUID=EE80-7926                            /boot/efi      vfat    umask=0077 0 2
+UUID=c8b7a78c-4462-42c6-a4ed-880d4e28b37d /boot          ext4    defaults,noatime 0 2
+UUID=1dea1334-96f2-4a8e-84aa-4656dd59c39d /              ext4    defaults,noatime 0 1
+UUID=2146a1c1-6376-4d4e-9ac9-d65fb1d8e2ba /home          ext4    defaults,noatime 0 2
+
+### DATA ###
+UUID=0472B10A72B1020A			 /data		 ntfs	 rw,noatime,uid=1000,gid=1000,defaults 0 0
+
+### SAMBA SHARES MACMINI ###
+//10.1.0.60/8tbdrive /mnt/macmini-8tbdrive cifs _netdev,nofail,username=vesaliuz,password=glas1Gow5 0 0
+//10.1.0.60/games /mnt/macmini-games cifs _netdev,nofail,username=vesaliuz,password=glas1Gow5 0 0
+//10.1.0.60/data /mnt/macmini-data cifs _netdev,nofail,username=vesaliuz,password=glas1Gow5 0 0

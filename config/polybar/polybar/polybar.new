@@ -1,0 +1,797 @@
+#-----------------------------------------------------------------------------#
+#----------------------------- Global settings -------------------------------#
+;font-0 = "Misc Termsyn:size=12;2"
+;font-1 = "Wuncon Siji:size=12;2"
+;font-2 = Iosevka Nerd Font:style=Medium:size=16;3
+           
+#-----------------------------------------------------------------------------#
+
+[colors]
+include-file = ~/.config/polybar/colors
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+[section/base_panel]
+;monitor = VGA1
+enable-ipc = true
+override-redirect = false
+bottom = false
+
+height = 300
+offset-y = -30
+fixed-center = true
+radius-bottom = 8
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+overline-size = 0
+overline-color = ${colors.background}
+underline-size = 0
+
+spacing = 0
+padding-left = 0
+padding-right = 0
+module-margin-left = 0
+module-margin-right = 0
+
+# Fonts
+# Very large offset to move the text to the bottom of the bar
+font-4 = "Misc Termsyn:size=10;133"
+font-1 = "Material:size=8;133"
+font-3 = "xos4 Terminus:size=8;133"
+font-0 = "scientifica:size=9;133"
+font-2 = Iosevka Nerd Font:style=Medium:size=12;134
+
+
+[bar/full]
+;monitor = VGA1
+enable-ipc = true
+override-redirect = false
+bottom = false
+
+height = 23
+width = 100%
+offset-y = 0%
+offset-x = 0%
+radius-top = 0
+radius-bottom  = 0
+fixed-center = true
+spacing = 0
+overline-size = 2
+underline-size = 2
+module-margin-left = 0
+module-margin-right = 0
+
+background = #151515
+foreground = #ffffff
+
+
+
+font-0 = "rissole:size=8;2"
+font-1 = "Material:size=10;3"
+font-2 = Iosevka Nerd Font:style=Medium:size=14;4
+font-3 = "waffle:size=9;3"
+
+modules-left = i3
+modules-center = song
+modules-right = updates_i updates cpu_i cpu filesystem_i filesystem memory_i memory right-end-top2 date
+
+;undo redo pgdown pgup pen eraser highlighter select space ruler shape save open cut quit
+;applauncher chrome web notes pdf terminal music calculator
+padding-right = 0
+wm-restack =i3
+
+[bar/full2]
+;monitor = VGA1
+enable-ipc = true
+override-redirect = true
+bottom = false
+
+height = 23
+width = 100%
+offset-y = 2.6%
+offset-x = 0%
+radius-top = 0
+radius-bottom  = 0
+fixed-center = true
+spacing = 0
+;overline-size = 0
+underline-size = 2
+overline-size = 2
+module-margin-left = 0
+module-margin-right = 0
+
+background = ${colors.foreground}
+foreground = #151515
+
+;font-4 = "Misc Termsyn:size=10;3"
+font-4 = "Wuncon Siji:size=11;2"
+font-1 = "Material:size=8;3"
+font-3 = "awesome:size=8;3"
+font-0 = "scientifica:size=9;3"
+font-2 = Iosevka Nerd Font:style=Medium:size=11;3
+;font-0 = "Digital Readout Thick Upright:size=12;3"
+
+modules-left = launcher mpd left1
+modules-center = left2  sep2 previous sep2 right-end-top sep4 left search xwindow left11 sep4 left-end-top sep3  next sep3 left1
+modules-right =   sep left2 pulseaudio2 options_open2
+;undo redo pgdown pgup pen eraser highlighter select space ruler shape save open cut quit
+padding-right = 1
+padding-left = 1
+wm-restack =i3
+#-----------------------------------------------------------------------------#
+#-------------------------------- Left panel ---------------------------------#
+#-----------------------------------------------------------------------------#
+
+[bar/left]
+inherit = section/base_panel
+height = 300
+width = 300
+offset-x = -0
+offset-y = 0
+padding-left = 3
+overline-size = 4
+overline-color = ${colors.background}
+
+# Fonts
+# Very large offset to move the text to the bottom of the bar
+font-4 = "Misc Termsyn:size=10;140"
+font-1 = "Wuncon Siji:size=8;140"
+font-3 = "xos4 Terminus:size=8;140"
+font-0 = "scientifica:size=9;140"
+font-2 = Iosevka Nerd Font:style=Medium:size=12;140
+
+modules-left =launcher2 i32
+
+
+#------------------------------- Left modules --------------------------------#
+
+[module/i32]
+type = internal/i3
+format = <label-state> <label-mode>
+
+strip-wsnumbers = true
+
+label-focused = %name%
+label-focused-background = ${colors.background}
+label-focused-foreground = ${colors.primary}
+label-focused-underline  = #88F2A90C
+;label-focused-overline  = ${colors.secondary}
+label-focused-padding = 2
+
+label-unfocused = %name%
+label-unfocused-padding = 1
+
+label-occupied = %name%
+label-occupied-padding = 1
+
+label-urgent = %name%
+label-urgent-background = ${colors.urgent}
+label-urgent-overline  = ${colors.background}
+label-urgent-padding = 1
+
+label-empty = %name%
+label-empty-foreground = ${colors.foreground}
+label-empty-padding = 1
+
+index-sort = true
+wrapping-scroll = false
+
+label-mode-padding = 1
+label-mode-foreground = #000
+label-mode-background = ${colors.primary}
+
+label-visible = %name%
+label-visible-underline = ${self.label-focused-underline}
+label-visible-padding = ${self.label-focused-padding}
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+strip-wsnumbers = true
+pin-workspaces = true
+index-sort = true
+wrapping-scroll = false
+
+;🐨 🐌 🐙 🐢 🐥 🐘 🐝 🐸 🐧 🐲
+
+;                              
+
+ws-icon-0 = 1; Term
+ws-icon-1 = 2; Web
+ws-icon-2 = 3; File
+ws-icon-3 = 4; Text
+ws-icon-4 = 5; Image
+ws-icon-5 = 6; Audio
+ws-icon-6 = 7; Video
+ws-icon-7 = 8; Other
+ws-icon-8 = 9; Tools
+ws-icon-9 = 10; Other
+
+label-focused ="%{B#151515 F#ffffff}%{B- F-}%{B#ffffff F#151515}%icon% %{B-}%{B#colors.background F#ffffff}%{B- F-}"
+label-focused-background = ${colors.background}
+label-focused-foreground = ${colors.foreground}
+label-focused-underline  = ${colors.background}
+label-focused-overline  = ${colors.background}
+label-focused-padding = 1
+
+label-unfocused ="%{B#151515 F#212121}%{B- F-}%{B#212121 F#ffffff}%icon%%{B-}%{B#151515 F#212121}%{B- F-}"
+label-unfocused-padding = 2
+label-unfocused-background = ${colors.background}
+label-unfocused-foreground = ${colors.background}
+label-unfocused-underline  = ${colors.background}
+label-unfocused-overline  = ${colors.background}
+
+label-occupied = %icon%
+label-occupied-padding = 1
+
+label-urgent ="%{B#000000 F#ff0000}%{B- F-}%{B#ff0000 F#ffffff}%icon%%{B-}%{B#000000 F#ff0000}%{B- F-}"
+label-urgent-background = ${colors.background}
+;label-urgent-overline  = ${colors.background}
+;label-urgent-padding = 1
+
+label-empty = %icon%
+label-empty-foreground = ${colors.foreground}
+label-empty-padding = 1
+
+label-mode-padding = 1
+label-mode-foreground = #000
+label-mode-background = #000
+
+label-visible = %icon%
+label-visible-underline = ${self.label-focused-underline}
+label-visible-padding = ${self.label-focused-padding}
+
+[module/launcher]
+type = custom/text
+content = "     "
+;content = "  "
+; "content" has the same properties as "format-NAME"
+content-background = #151515
+content-foreground = #ffffff
+content-underline  = ${colors.foreground}
+content-overline  = ${colors.foreground}
+content-padding = 0
+click-left = ~/.config/polybar/scripts/color-switch.sh &
+click-right = ~/.config/polybar/scripts/color-switch.sh &
+
+[module/launcher2]
+type = custom/text
+content = "     "
+;content = "  "
+
+; "content" has the same properties as "format-NAME"
+content-background = ${colors.background}
+content-foreground = ${colors.foreground}
+content-padding = 0
+click-left = ~/.bin/mpd_control.sh -j
+click-right = ~/.config/polybar/scripts/color-switch.sh &
+
+#-----------------------------------------------------------------------------#
+#------------------------------- Center panel --------------------------------#
+#-----------------------------------------------------------------------------#
+
+[bar/center]
+inherit = section/base_panel
+width = 20%
+offset-x = 40%
+modules-center = xwindow
+radius-bottom = 8
+# Fonts
+# Very large offset to move the text to the bottom of the bar
+font-4 = "Misc Termsyn:size=10;130"
+font-1 = "Material:size=15;130"
+font-3 = "xos4 Terminus:size=8;130"
+font-0 = "scientifica:size=9;130"
+font-2 = Iosevka Nerd Font:style=Medium:size=18;130
+
+#------------------------------ Center modules -------------------------------#
+
+[module/xwindow]
+type = custom/text
+content = "  ##############################################3###################### "
+content-background =#000000
+content-foreground =#000000
+content-overline = ${colors.foreground}
+content-underline = ${colors.foreground}
+click-left = ~/.bin/dmenu-pywal
+click-right = ~/.bin/mpd_control.sh -j
+
+[module/right1]
+type = custom/text
+content-background = ${colors.background}
+content-foreground = ${colors.foreground}
+content = "%{T3}%{T-}"
+;content-overline = ${colors.background}
+;content-underline = ${colors.background}
+
+[module/right2]
+type = custom/text
+content-background = ${colors.foreground}
+content-foreground = ${colors.background}
+content = "%{T3}%{T-}"
+;content-overline = ${colors.background}
+;content-underline = ${colors.background}
+
+[module/right3]
+type = custom/text
+content-background = ${colors.background}
+content-foreground = ${colors.foreground}
+content = "%{T3}%{T-}"
+;content-overline = ${colors.background}
+;content-underline = ${colors.background}
+
+
+[module/right6]
+type = custom/text
+content-background = ${colors.foreground}
+content-foreground = ${colors.background}
+content = " %{T3}%{T-}"
+;content-overline = ${colors.background}
+;content-underline = ${colors.background}
+
+[module/left]
+type = custom/text
+content-background = ${colors.foreground}
+content-foreground = #000000
+content = "%{T3}%{T-}"
+content-overline = ${colors.foreground}
+content-underline = ${colors.foreground}
+
+[module/left1]
+type = custom/text
+content-background = ${colors.foreground}
+content-foreground = #151515
+content = "%{T3}%{T-}"
+content-overline = ${colors.foreground}
+content-underline = ${colors.foreground}
+
+
+[module/left2]
+type = custom/text
+content-background = ${colors.foreground}
+content-foreground = #151515
+content = "%{T3}%{T-}"
+;content-font = 4
+content-overline = ${colors.foreground}
+content-underline = ${colors.foreground}
+
+[module/left11]
+type = custom/text
+content-background = ${colors.foreground}
+content-foreground = #000000
+content = "%{T3}%{T-}"
+content-overline = ${colors.foreground}
+content-underline = ${colors.foreground}
+
+
+[module/left22]
+type = custom/text
+content-background = #151515
+content-foreground = #ffffff
+content = "     %{T3}%{T-}"
+content-overline = #151515
+content-underline = #151515
+
+[module/search]
+type = custom/text
+content-background = #000000
+content-foreground = ${colors.foreground}
+content = "%{T3} Search:%{T-}"
+content-overline = ${colors.foreground}
+content-underline = ${colors.foreground}
+click-left = "~/.bin/dmenu-pywal"
+click-right = ~/.bin/mpd_control.sh -j
+
+#-----------------------------------------------------------------------------#
+#------------------------------- Right panel ---------------------------------#
+#-----------------------------------------------------------------------------#
+
+[bar/right]
+inherit = section/base_panel
+padding-right = 2
+width = 23%
+offset-x = 1232
+modules-right = memory_bar cpu_bar date2 options_open sysmenu
+
+#-----------------------------=- Right modules -------------------------------#
+[module/options_open2]
+type = custom/text
+content-foreground = #ffffff
+content-background = #151515
+content-overline = ${colors.foreground}
+content-underline = ${colors.foreground}
+content = "    "
+click-left = ~/.config/i3/scripts/polybar_wrapper options
+
+[module/options_open]
+type = custom/text
+content-foreground = ${colors.foreground}
+content = "   100%"
+click-left = ~/.config/i3/scripts/polybar_wrapper options
+
+[module/options_close]
+type = custom/text
+content-foreground = ${colors.primary}
+content = "   100%"
+click-left = ~/.config/i3/scripts/polybar_wrapper options
+
+
+[module/date]
+type = internal/date
+interval = 5
+time ="%I:%M | %a %d %b  "
+label ="%time%"
+format=<label>
+format-foreground = ${colors.background}
+format-background = ${colors.foreground}
+format-prefix ="  "
+format-prefix-foreground = ${colors.background}
+format-prefix-background = ${colors.foreground}
+
+[module/date2]
+type = internal/date
+interval = 5
+time ="%I:%M | %a %d %b"
+label ="%time%"
+format=<label>
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+format-prefix ="   "
+format-prefix-foreground = ${colors.foreground}
+format-prefix-background = ${colors.background}
+
+
+[module/pulseaudio2]
+type = internal/alsa
+format-volume = <ramp-volume><label-volume>
+label-volume = " %percentage%% "
+label-volume-foreground = #ffffff
+label-volume-background =#151515
+label-volume-overline = ${colors.foreground}
+label-volume-underline = ${colors.foreground}
+format-volume-background =#ffffff
+format-volume-foreground =#ffffff
+format-volume-overline = #ffffff
+format-volume-underline = #ffffff
+
+format-muted = <label-muted>
+label-muted=""
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-3 = 
+ramp-volume-4 = 
+ramp-headphones-0 = 
+ramp-headphones-1 = 
+ramp-volume-foreground = #ffffff
+ramp-volume-background =#151515
+ramp-volume-overline = ${colors.foreground}
+ramp-volume-underline = ${colors.foreground}
+; Only applies if <bar-volume> is used
+bar-volume-width = 6
+bar-volume-gradient = false
+
+bar-volume-indicator ="█"
+bar-volume-indicator-foreground = ${colors.fg1}
+bar-volume-indicator-font = 1
+
+bar-volume-fill ="█"
+bar-volume-foreground-0 = ${colors.fg1}
+bar-volume-foreground-1 = ${colors.fg1}
+bar-volume-foreground-2 = ${colors.fg1}
+bar-volume-foreground-3 = ${colors.fg1}
+bar-volume-foreground-4 = ${colors.fg1}
+bar-volume-foreground-5 = ${colors.fg1}
+bar-volume-foreground-6 = ${colors.fg1}
+bar-volume-foreground-7 = ${colors.fg1}
+bar-volume-foreground-8 = ${colors.fg1}
+bar-volume-fill-font = 1
+
+bar-volume-empty ="█"
+bar-volume-empty-foreground = ${colors.fg3}
+bar-volume-empty-font = 1
+
+[module/volume2]
+type = custom/ipc
+hook-0 = $HOME/.config/i3/scripts/polybar_modules/volume icon
+scroll-up = $HOME/.config/i3/scripts/polybar_modules/volume increase
+scroll-down = $HOME/.config/i3/scripts/polybar_modules/volume decrease
+click-left = $HOME/.config/i3/scripts/polybar_modules/volume mute
+initial = 1
+
+
+[module/song]
+type = internal/mpd
+interval = 2
+format-online =<label-song>
+format-online-background = #151515
+format-online-padding = 0
+label-song = "  %title%"
+label-song-background = #151515
+label-song-foreground = #ffffff
+label-song-maxlen = 50
+label-song-ellipsis = true
+label-offline = "MPD is offline"
+
+[module/mpd]
+type = internal/mpd
+
+interval = 2
+
+format-online =<icon-stop><toggle>
+format-online-background = ${colors.foreground}
+format-online-padding = 0
+
+label-song =  "%artist% - %title%"
+label-song-maxlen = 20
+label-song-ellipsis = true
+
+label-offline = "MPD is offline"
+
+icon-play = " play "
+icon-play-foreground =#ffffff
+icon-play-background =#151515
+icon-play-overline = ${colors.foreground}
+icon-play-underline = ${colors.foreground}
+icon-pause =" pause "
+icon-pause-foreground =#ffffff
+icon-pause-background =#151515
+icon-pause-overline = ${colors.foreground}
+icon-pause-underline = ${colors.foreground}
+icon-stop =" stop "
+icon-stop-foreground =#ffffff
+icon-stop-background =#151515
+icon-stop-overline = ${colors.foreground}
+icon-stop-underline = ${colors.foreground}
+icon-prev = "  "
+icon-prev-foreground =#ffffff
+icon-prev-background =#151515
+icon-next = "  "
+icon-next-foreground =#ffffff
+icon-next-background =#151515
+
+[module/decor-glyph]
+type = custom/text
+content-background = ${colors.foreground}
+content-foreground = #151515
+
+[module/left-end-top]
+inherit = module/decor-glyph
+content = "%{T3}%{T-}"
+
+[module/right-end-top]
+inherit = module/decor-glyph
+content = "%{T3}%{T-}"
+
+
+[module/right-end-top2]
+inherit = module/decor-glyph
+content = "%{T3}%{T-}"
+content-background = ${colors.foreground}
+content-foreground = #151515
+
+
+[module/network]
+type = internal/network
+interface = enp1s0
+
+interval = 1.0
+accumulate-stats = true
+unknown-as-up = true
+
+format-connected = <label-connected>
+format-connected-background = #151515
+format-connected-foreground = #ffffff
+format-connected-padding = 1
+
+format-disconnected = <label-disconnected>
+format-disconnected-background = #151515
+format-disconnected-foreground = #ffffff
+format-disconnected-padding = 2
+
+label-disconnected =  "Not Connected"
+label-connected = "NET:%downspeed:8% %upspeed:8%"
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+
+[module/weather]
+type = custom/script
+interval = 1800
+exec = "~/.config/polybar/scripts/weather "
+label-foreground = #ffffff
+label-background = #151515
+;format-prefix = "  "
+format-prefix-background = #151515
+format-prefix-foreground = #ffffff
+
+[module/previous]
+type = custom/text
+content = "    "
+content-background = #151515
+content-foreground = #ffffff
+content-overline = ${colors.foreground}
+content-underline = ${colors.foreground}
+content-padding = 1
+click-left = mpc prev
+
+[module/playpause]
+type = custom/script
+exec = sh ~/.config/polybar/scripts/playpause.sh
+interval= 1
+label = %output%
+label-background = #151515
+label-foreground = #ffffff
+content-overline = #ffffff
+content-underline = #ffffff
+label-padding = 1
+click-left = mpc toggle
+
+[module/next]
+type = custom/text
+content = "    "
+content-background = #151515
+content-foreground = #ffffff
+content-overline = ${colors.foreground}
+content-underline = ${colors.foreground}
+content-padding = 1
+click-left = mpc next
+
+[module/sep]
+; alternative separator
+type = custom/text
+content ="    "
+content-foreground = ${colors.foreground}
+content-background = ${colors.foreground}
+format-foreground = ${colors.foreground}
+format-background = ${colors.foreground}
+
+[module/sep2]
+; alternative separator
+type = custom/text
+content ="        "
+content-foreground = #151515
+content-background = #151515
+format-foreground = #151515
+format-background = #151515
+content-overline = ${colors.foreground}
+content-underline = ${colors.foreground}
+
+[module/sep3]
+; alternative separator
+type = custom/text
+content ="        "
+content-foreground = #151515
+content-background = #151515
+format-foreground = #151515
+format-background = #151515
+content-overline = ${colors.foreground}
+content-underline = ${colors.foreground}
+
+
+[module/sep4]
+; alternative separator
+type = custom/text
+content ="   "
+content-foreground = #151515
+content-background = ${colors.foreground}
+format-foreground = #151515
+format-background = ${colors.foreground}
+content-overline = ${colors.foreground}
+content-underline = ${colors.foreground}
+
+[module/updates]
+type = custom/script
+
+exec = ~/.config/polybar/scripts/updates.sh
+
+tail = true
+interval = 5
+
+format-background = #151515
+format-foreground = #ffffff
+format-padding = 1
+
+click-left = ~/.config/polybar/scripts/lupdates &
+
+[module/updates_i]
+type = custom/text
+
+content = 
+content-background = #151515
+content-foreground = #ffffff
+content-padding = 1
+
+click-left = ~/.config/polybar/scripts/lupdates &
+
+[module/cpu]
+type = internal/cpu
+
+interval = 0.5
+
+format = <label>
+format-background = #151515
+format-foreground = #ffffff
+format-padding = 1
+
+label = "%percentage%%"
+
+[module/cpu_i]
+type = internal/cpu
+
+interval = 0.5
+
+format = 
+format-background = #151515
+format-foreground = #ffffff
+format-padding = 1
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/filesystem]
+type = internal/fs
+
+mount-0 = /
+interval = 10
+fixed-values = true
+
+format-mounted = <label-mounted>
+format-mounted-background = #151515
+format-mounted-foreground = #ffffff
+format-mounted-padding = 1
+
+format-unmounted = <label-unmounted>
+format-unmounted-background = #151515
+format-unmounted-foreground = #ffffff
+format-unmounted-padding = 1
+
+label-mounted = "%free%"
+label-unmounted = %mountpoint%: not mounted
+
+[module/filesystem_i]
+type = internal/fs
+
+mount-0 = /
+interval = 10
+fixed-values = true
+
+format-mounted = 
+format-mounted-background = #151515
+format-mounted-foreground = #ffffff
+format-mounted-padding = 1
+
+format-unmounted = 
+format-unmounted-background = #151515
+format-unmounted-foreground = #ffffff
+format-unmounted-padding = 1
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/memory]
+type = internal/memory
+
+interval = 3
+
+format = <label>
+format-background = #151515
+format-foreground = #ffffff
+format-padding = 1
+
+label = "%mb_used%"
+
+[module/memory_i]
+type = internal/memory
+
+interval = 3
+
+format = 
+format-background = #151515
+format-foreground = #ffffff
+format-padding = 1

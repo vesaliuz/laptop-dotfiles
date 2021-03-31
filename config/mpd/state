@@ -1,0 +1,118 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:toggle_visualizer
+state: stop
+current: 42
+random: 1
+repeat: 1
+single: 0
+consume: 0
+crossfade: 2
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Musica/After the Rain/[Single] Aimer – Refrain  Mabayui Bakari [Hi-Res+FLAC+ZIP][2018.02.21]/01. Refrain.m4a
+1:Musica/Alan Parsons Project - The Essential (Remastered) (2007) 320.MP3/Disc 2/10. Eye In The Sky.mp3
+2:Musica/Avicii – Essentials (2018) 320/01. Wake Me Up.mp3
+3:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.I)AAC.Lossy/0055. The Beatles - Rubber Soul (1965)/02. Norwegian Wood (This Bird Has Flown).m4a
+4:Musica/Björk/[1993] Debut/03 Venus As A Boy.mp3
+5:iTunes/Compilations/Roads of old Ballads/25 Don't Fear The Reaper.m4a
+6:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 2/02. Bonnie Tyler - Holding Out For A Hero.m4a
+7:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 4/03. Boy Meets Girl - Waiting For A Star To Fall.m4a
+8:Musica/VA - Now That's What I Call The 80s Hits (2016) [MP3~320Kbps]~[Hunter] [FRG]/VA - Now That's What I Call The 80s Hits (2016)/42. Bronski Beat - Smalltown Boy.mp3
+9:Musica/Ministry Of Sound - I Love Disco (2017) (Mp3 320kbps) [Hunter]/Ministry Of Sound - I Love Disco [3CD] (2017)/CD 3/16. Supernature - Cerrone.mp3
+10:Musica/After the Rain/[Single] CHiCO with HoneyWorks – Nostalgic Rainfall [MP3+320K+ZIP][2018.01.24]/01. ノスタルジックレインフォール.mp3
+11:Musica/Monogatari Series (2009-2016) [MP3]/02 - Nise/[2012.05.23] Nisemonogatari Vol.2 Karen Bee (Part 2) [OP - Futakotome & Music Collection I]/01 - Futakotome.mp3
+12:Musica/Monogatari Series (2009-2016) [MP3]/01 - Bake/[2009.09.30] Bakemonogatari Vol.1 Hitagi Crab [OP - staple stable]/01 - staple stable.mp3
+13:Musica/Roads of old Ballads (2018)/011. David Bowie - Spase oddity.m4a
+14:iTunes/David Guetta/Nothing But the Beat Ultimate/1-01 Titanium (feat. Sia).mp3
+15:iTunes/Compilations/Awesome Mix Vol. 2/1-01 Mr. Blue Sky.m4a
+16:iTunes/Electric Light Orchestra/Electric Light Orchestra Greatest Hits/1-03 Twilight.m4a
+17:iTunes/Enigma/Love Sensuality Devotion_ Greatest Hits & Remixes (Remastered 2016)/1-07 Return To Innocence.m4a
+18:iTunes/Enigma/Love Sensuality Devotion_ Greatest Hits & Remixes (Remastered 2016)/1-10 Sadeness.m4a
+19:iTunes/Enigma/Love Sensuality Devotion_ Greatest Hits & Remixes (Remastered 2016)/1-13 Mea Culpa.m4a
+20:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/02. Gene Kelly With The M-G-M Studio Orchestra - Singin' In The Rain.m4a
+21:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 4/01. Henry Mancini & His Orchestra - The Pink Panther Theme.m4a
+22:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/04. Henry Mancini & His Orchestra and Chorus - Moon River.m4a
+23:Musica/Blood+ OP&ED Singles/BLOOD+ OP2 Single - SEASONS CALL/01 - SEASON'S CALL.m4a
+24:Musica/Inti-Illimani/Inti-Illimani/(1970) Canto Al Programa/21 - Canción De Las Relaciones Internacionales.mp3
+25:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/07. James Brown - Living In America.m4a
+26:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/17. Jefferson Airplane - Somebody To Love.m4a
+27:iTunes/Journey/Greatest Hits (Limited Gold Edition)/09 Separate Ways (Worlds Apart).m4a
+28:iTunes/Journey/Greatest Hits (Limited Gold Edition)/12 Open Arms.m4a
+29:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 2/01. Kenny Loggins - Footloose.m4a
+30:Musica/Great Teacher Onizuka Music Collection/Kirari - Last Piece [ED1]/01. Kirari - Last Piece.mp3
+31:Musica/Great Teacher Onizuka Music Collection/L'Arc~en~Ciel - Driver's High [OP1]/01. L'Arc~en~Ciel - Driver's High.mp3
+32:iTunes/Compilations/Rurouni Kenshin -Meiji Kenkaku Romantan- Complete CD-Box [Sequence.1_ Scene.1_ ~Opening & Ending Theme Song~]/1-11 Niji.mp3
+33:iTunes/Yoko Kanno/Ghost in the Shell STAND ALONE COMPLEX O.S.T. 2/02 rise.mp3
+34:Musica/Yoko Kanno [Discography 1990-2012]/[2003.01.22] Ghost in the Shell Stand Alone Complex OST/11. inner universe.mp3
+35:iTunes/Perfume/Cosmic Explorer/05 STORY.m4a
+36:Musica/PERFUME/[080709] 7th Single - love the world/04. edge -extended mix-.mp3
+37:Musica/PERFUME/[020321] 1st Indies Single - OMAJINAI★ペロリ/01. OMAJINAI★ペロリ.mp3
+38:Musica/PERFUME/Level3 (Bonus Edition)/01 Enter the Sphere.m4a
+39:Musica/PERFUME/Level3 (Bonus Edition)/02 Spring of Life.m4a
+40:Musica/PERFUME/Level3 (Bonus Edition)/03 Magic of Love.m4a
+41:Musica/PERFUME/Perfume - P Cubed 15th Anniversary/Disc 1/14 Edge (Triangle-Mix).m4a
+42:iTunes/Perfume/Perfume The Best _P Cubed_/2-13 Spending All My Time.m4a
+43:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/03. Peter Nero - Raindrops Keep Fallin' On My Head.m4a
+44:iTunes/Compilations/Roads of old Ballads/04 Shine on you crazy diamond (Parts I-V).m4a
+45:iTunes/Pink Floyd/Echoes_ The Best Of Pink Floyd/1-01 Astronomy Domine.m4a
+46:iTunes/Pink Floyd/Echoes_ The Best Of Pink Floyd/1-08 The Great Gig In The Sky.m4a
+47:iTunes/Pink Floyd/Echoes_ The Best Of Pink Floyd/2-04 Comfortably Numb.m4a
+48:Musica/Great Teacher Onizuka Music Collection/Porno Graffitti - Hitori no Yoru [OP2]/01. Porno Graffitti - Hitori No Yoru.mp3
+49:iTunes/Compilations/VH1 100 Greatest Songs of 80_s/68 Fight The Power.mp3
+50:Musica/Neuva cancion/La Internacional/01-La Internacional.mp3
+51:iTunes/Compilations/Forever Gold of 80s/Maria magdalena (extended version).m4a
+52:Musica/Yoko Kanno [Discography 1990-2012]/[2003.01.22] Ghost in the Shell Stand Alone Complex OST/09. lithium flower.mp3
+53:Musica/Roads of old Ballads (2018)/006. Scott McKenzie - San Francisco (Be Sure To Wear Flowers In Your Hair).m4a
+54:iTunes/Compilations/Rurouni Kenshin -Meiji Kenkaku Romantan- Complete CD-Box [Sequence.1_ Scene.1_ ~Opening & Ending Theme Song~]/1-07 1_3 no Junjou na Kanjou.mp3
+55:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/09. Simon & Garfunkel - Mrs. Robinson.m4a
+56:Musica/Yoko Kanno [Discography 1990-2012]/[2003.03.29] Wolf's Rain OST 1/01. Stray.mp3
+57:iTunes/Compilations/Best Rock Anthems... Ever CD2/03 The Logical Song.m4a
+58:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/06. Survivor - Eye Of The Tiger.m4a
+59:Musica/Rurouni Kenshin -2002.09.19- [-Meiji Kenkaku Romantan- Complete CD-Box]himuraTALE/Sequence.1/Scene 01 - Opening & Ending Theme Song/04 - HEART OF SWORD ~Before Daybreak~.mp3
+60:iTunes/Compilations/I Love Disco - Ministry Of Sound/2-01 Blame It On The Boogie.mp3
+61:iTunes/The Seatbelts_Yoko Kanno/Cowboy Bebop OST 1 - Cowboy Bebop/01 Tank!.mp3
+62:iTunes/The Seatbelts_Yoko Kanno/Cowboy Bebop OST 5 - Future Blues/18 RAIN - Episode 5.mp3
+63:Musica/Richard Wagner [FLAC]/2005 - The Complete Operas [43 CD's]/02 - Lohengrin/CD 3/01. Vorspiel.mp3
+64:Musica/Richard Wagner [FLAC]/2005 - The Complete Operas [43 CD's]/02 - Lohengrin/CD 3/02. Aufzug 3 Szene 1 - Treulich gefuhrt, ziehet dahin (Chor).mp3
+65:iTunes/Wax Audio/Mashopolos/03 Stayin Alive In The Wall.m4a
+66:iTunes/Wax Audio/Mashopolos/04 Hallowed Be Thy Enemy.m4a
+67:Musica/Wax_Audio_-_MashopolosII/Wax_Audio_-_The_Mashening/Wax_Audio_-_The_Mashening_-_09_Metallica_Goes_To_Istanbul.mp3
+68:Musica/Wax_Audio_-_MashopolosII/Wax_Audio_-_The_Mashening/Wax_Audio_-_The_Mashening_-_10_And_Krishna_For_All.mp3
+69:Musica/Wax_Audio_-_MashopolosII/Wax_Audio_-_The_Mashening/Wax_Audio_-_The_Mashening_-_13_TrickBattery.mp3
+70:Musica/MashopolosIII/MashopolosIII/Mashopolos III - Mashups For The People/06 Blue Jump.mp3
+71:Musica/Wax Audio - Mashphonic/Wax Audio - Mashphonic/02 Sleeping Bad.mp3
+72:Musica/Wax Audio - Mashphonic/Wax Audio - Mashphonic/04 Breathe and Destroy.mp3
+73:iTunes/Wax Audio/Mashphonic/05 Stayin in Black.mp3
+74:Musica/Weezer - Weezer (Teal Album) (2019) [320]/01. Africa.m4a
+75:Musica/Weezer - Weezer (Teal Album) (2019) [320]/02. Everybody Wants To Rule The World.m4a
+76:Musica/Weezer - Weezer (Teal Album) (2019) [320]/03. Sweet Dreams (Are Made Of This).m4a
+77:Musica/Weezer - Weezer (Teal Album) (2019) [320]/04. Take On Me.m4a
+78:Musica/Weezer - Weezer (Teal Album) (2019) [320]/05. Happy Together.m4a
+79:Musica/Weezer - Weezer (Teal Album) (2019) [320]/06. Paranoid.m4a
+80:Musica/Weezer - Weezer (Teal Album) (2019) [320]/07. Mr. Blue Sky.m4a
+81:Musica/Weezer - Weezer (Teal Album) (2019) [320]/08. No Scrubs.m4a
+82:Musica/Weezer - Weezer (Teal Album) (2019) [320]/09. Billie Jean.m4a
+83:Musica/Weezer - Weezer (Teal Album) (2019) [320]/10. Stand By Me.m4a
+84:iTunes/Yoko Kanno/Escaflowne - Movie OST/02 First Vision.mp3
+85:iTunes/Yoko Kanno/Escaflowne - Movie OST/04 Into GAEA.mp3
+86:iTunes/Yoko Kanno/Escaflowne - Movie OST/05 竜撃隊登場.mp3
+87:iTunes/Yoko Kanno/Escaflowne - Movie OST/06 Horse ride.mp3
+88:iTunes/Yoko Kanno/Escaflowne - Movie OST/07 ガイア羊.mp3
+89:iTunes/Yoko Kanno/Escaflowne - Movie OST/08 Regret.mp3
+90:iTunes/Yoko Kanno/Escaflowne - Movie OST/09 Bird Song.mp3
+91:iTunes/Yoko Kanno/Escaflowne - Movie OST/10 Sora.mp3
+92:iTunes/Yoko Kanno/Escaflowne - Movie OST/18 Dance of curseⅡ.mp3
+93:iTunes/Yoko Kanno/Escaflowne - Movie OST/19 Black Escaflowne.mp3
+94:iTunes/Yoko Kanno/Escaflowne - Over the Sky (OST 1)/05 Escaflowne.mp3
+95:iTunes/Yoko Kanno/Ghost In The Shell Stand Alone Complex -/13 Some Other Time.mp3
+96:iTunes/Yoko Kanno/Macross Plus ~For Fans Only~/03 Idol talk.mp3
+97:iTunes/Yoko Kanno/Macross Plus ~For Fans Only~/10 SANTI-U.mp3
+98:iTunes/Yoko Kanno/Ghost In The Shell Stand Alone Complex -/03 Sutamina Roozu (Stamina Rose).mp3
+99:Musica/[Album] Earphones – Some Dreams [MP3+320K+ZIP][2018.03.14]/03. 一件落着ゴ用心.mp3
+100:Musica/Yoko Kanno [Discography 1990-2012]/[1999.07.23] Turn A Gundam OST I/09. Moon.mp3
+101:iTunes/Billy Idol/Greatest Hits/06 Eyes Without A Face (1999 Remaster).m4a
+102:iTunes/The Seatbelts_Yoko Kanno/Cowboy Bebop OST 1 - Cowboy Bebop/01 Tank!.mp3
+103:iTunes/Yoko Kanno/MACROSS PLUS The Cream P・U・F/01 Information High.mp3
+playlist_end

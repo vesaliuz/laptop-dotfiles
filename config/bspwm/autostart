@@ -1,0 +1,12 @@
+#! /bin/sh
+
+sxhkd &
+sxhkd -c /home/vesaliuz/.config/sxhkd/bspwm.sxhkdrc &
+compton -b --config /home/vesaliuz/.config/compton/compton.conf &
+#variety;sleep 2s & 
+wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt) &
+redshift &
+blueberry-tray &
+nm-applet &
+run nitrogen --restore; sleep 1; variety; sleep 3; wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt) &
+$HOME/.config/polybar/launch-bspwm.sh &

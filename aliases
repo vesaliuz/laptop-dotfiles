@@ -1,0 +1,38 @@
+alias ls='ls --color=auto'
+alias lss='ls -la | grep "^d" && ls -la | grep "^-" && ls -la | grep "^l"'
+alias fc='sudo fc-cache -fv'
+alias cp='advcp -g'
+alias mv='advmv -g'
+#youtube-dl
+alias yta-aac="youtube-dl --extract-audio --audio-format aac "
+alias yta-best="youtube-dl --extract-audio --audio-format best "
+alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+#Cleanup orphaned packages
+alias cleanup="sudo pacman -Rns $(pacman -Qtdq)"
+alias mpdris="mpd --kill && mpd && mpDris2 &"
+alias cdgames="cd /mnt/games"
+alias yaconf='yay -Pg'
+alias yaupg='yay -Syu'
+alias yasu='yay -Syu --noconfirm'
+alias yain='yay -S'
+alias yains='yay -U'
+alias yare='yay -R'
+alias yarem='yay -Rns'
+alias yarep='yay -Si'
+alias yareps='yay -Ss'
+alias yaloc='yay -Qi'
+alias yalocs='yay -Qs'
+alias yalst='yay -Qe'
+alias yaorph='yay -Qtd'
+alias yainsd='yay -S --asdeps'
+alias yamir='yay -Syy'
+alias extraer='dtrx '
+alias mirror="sudo reflector -f 30  --number 20 -c CL -c US -c CA -c DE -p https -p http --verbose  --save /etc/pacman.d/mirrorlist"
+alias ta='tmux attach -t'
+alias tad='tmux attach -d -t'
+alias ts='tmux new-session -s'
+alias tl='tmux list-sessions'
+alias tksv='tmux kill-server'
+alias tkss='tmux kill-session -t'
+alias conscript='ln -s ~/dotfiles/scripts/convert.sh'
+alias macmini='ssh -l vesaliuz -p 2222 10.1.0.60'

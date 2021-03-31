@@ -1,0 +1,201 @@
+####################################
+# file: ~/.config/sxhkd/sxhkdrc
+# 2019-09-01 version 0.2
+# This file contains common bind 
+# keys for all WMs/DMs that support 
+# sxhkd
+####################################
+
+#########################################################
+################# VARIETY CONFIGURATION #################
+#########################################################
+#Wallpaper trash
+ alt + t 
+    variety -t
+ 
+#Wallpaper next
+alt + n 
+    variety -n
+ 
+#Wallpaper previous
+alt + p 
+    variety -p
+ 
+#Wallpaper favorite
+alt + f 
+    variety -f
+ 
+#Wallpaper pause
+alt + Up
+    variety --pause
+ 
+ #Wallpaper resume
+alt + Down 
+    variety --resume
+
+#########################
+#VARIETY KEYS WITH PYWAL#
+#########################
+  
+#Wallpaper trash
+alt + shift + t
+    variety -t && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+ 
+#Wallpaper next
+alt + shift + n 
+    variety -n && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+ 
+ #Wallpaper previous
+alt + shift + p 
+    variety -p && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+ 
+ #Wallpaper favorite
+alt + shift + f
+    variety -f && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+ 
+#Wallpaper update
+alt + shift + u 
+    wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+#######################################################################################################
+######################################################################################################
+
+# Firefox
+alt + b
+	firefox
+
+# Atom
+alt + a
+	atom
+
+#thunar
+super + shift + Return
+    thunar
+
+#Gimp
+super + F4
+    gimp
+
+#Lollypop
+super + F5
+    audacious
+
+#Vlc
+super + F6
+    vlc --video-on-top
+
+#Virtualbox
+super + F7
+    virtualbox
+
+#Dolphin
+super + F8
+    dolphin
+
+#
+super + F9
+    thunderbird
+
+#Cantata
+super + F10
+    cantata
+
+#Rofi
+alt + d
+      ~/.config/rofi/launchers/launcher.sh
+#Htop
+super + h
+    termite 'htop task manager' -e htop
+
+#music player
+super + m
+    termite 'ncmpcpp music player' -e ncmpcpp
+
+# terminator
+super + alt + t
+    terminator
+
+#Pavucontrol
+super + v
+    pavucontrol
+
+#Browser
+alt + v
+    qutebrowser
+
+#Xkill
+super + Escape
+    xkill
+
+#Terminal emulator
+super + Return
+	termite
+
+
+#File-Manager
+alt + shift + Return
+	termite -e ranger
+
+#Keyboard dependent
+#File-Manager
+#super + shift + KP_Enter
+#	thunar
+
+
+#reload sxhkd:
+super + shift + s
+	pkill -USR1 -x sxhkd
+
+
+#########################
+# CONTROL + ALT KEYS    #
+#########################
+
+#Xfce4-appfinder
+ctrl + alt + a
+     xfce4-appfinder
+
+
+#Firefox
+ctrl + alt + f
+     firefox
+
+
+#Nitrogen
+ctrl + alt + i
+     nitrogen
+
+#Screen-Locker
+ctrl + alt + k
+     ~/bin/autolock.sh
+
+
+
+#########################
+#     MULTIMEDIA KEYS   #
+#########################
+
+#Raises volume
+XF86AudioRaiseVolume
+#    amixer set Master 5%+
+    pamixer -i 5
+
+#Lowers volume
+XF86AudioLowerVolume
+#    amixer set Master 5%-
+    pamixer -d 5
+#Mute
+XF86AudioMute
+#    amixer -D pulse set Master 1+ toggle
+    pamixer -t
+
+#PLAY
+XF86AudioPlay
+    playerctl play-pause
+
+#Next
+XF86AudioNext
+     playerctl next
+
+#previous
+XF86AudioPrev
+    playerctl previous

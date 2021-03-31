@@ -1,0 +1,95 @@
+################################################
+# file: ~/.config/sxhkd/i3.sxhkdrc
+# version 0.2 2019-09-01
+# new version based in a previus implementation
+################################################
+
+# Go to, move windows to workspace
+super + {_,shift +} {1,2,3,4,5,6,7,8,9}
+	i3-msg {workspace,move container to workspace} {1,2,3,4,5,6,7,8,9}
+
+alt + ctrl + {left,right}
+    i3-msg {workspace}{prev,next}
+
+super + 0
+    oblogout
+
+# Restart I3 inplace
+super + shift + r
+	i3-msg restart
+
+# reload config
+super + shift + c
+    i3-msg reload
+
+# Kill a window
+super + q
+	i3-msg kill
+
+# Change Focus, move window
+super + {_,shift +} {h,j,k,l}
+	i3-msg {focus,move} {left,down,up,right}
+
+# Change Focus, move window
+super + {_,shift +} {Left,Down,Up,Right}
+	i3-msg {focus,move} {left,down,up,right}
+
+# Split horizontaly or virtically
+alt + {h,v}
+	i3-msg split {h,v}
+
+alt + q
+    i3-msg split toggle
+
+# enter fullscreen
+super + f
+	i3-msg fullscreen toggle
+
+# Change layout
+super + {s,w,e}
+	i3-msg layout {stacking,tabbed,toggle split}
+
+# Toggle Tiling/Floating
+
+super + shift + space
+	i3-msg floating toggle
+
+ctrl + super + space
+    i3-msg sticky toggle
+
+# Change focus between tiling/floating
+super + space
+	i3-msg focus mode_toggle
+
+# focus parent container
+super + a
+	i3-msg focus parent
+
+# focus child container
+super + c
+	i3-msg focus child
+
+# exit i3 session
+super + shift + e
+	clearine
+
+# Resize
+super + alt + {h,j,k,l}
+	i3-msg resize{shrink width 5 px,grow height 5 px,shrink height 5 px,grow width 5 px}
+
+# change borders
+super + u
+    i3-msg border none
+
+super + y
+    i3-msg border pixel 1
+
+super + n
+    i3-msg border normal
+
+# scratchpad
+super + shift + minus
+    i3-msg move scratchpad
+
+super + minus
+    i3-msg scratchpad show

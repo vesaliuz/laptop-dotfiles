@@ -1,0 +1,3 @@
+UUID=5CB4-F732		    /mnt/games	  exfat	 rw,defaults,uid=1000,gid=1000,noatime,nofail  0 0
+UUID=5C26-70B3		    /mnt/3tbdrive exfat	 rw,defaults,uid=1000,gid=1000,noatime,nofail  0 0
+UUID=4722-8390		    /mnt/2tbdrive exfat  rw,defaults,uid=1000,gid=1000,noatime,nofail  0 0 		
