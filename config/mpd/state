@@ -1,9 +1,8 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: play
-current: 31
-time: 92.522000
+state: stop
+current: 1
 random: 1
 repeat: 1
 single: 0
@@ -70,4 +69,5 @@ playlist_begin
 55:Musica/[Album] Earphones – Some Dreams [MP3+320K+ZIP][2018.03.14]/03. 一件落着ゴ用心.mp3
 56:Musica/Yoko Kanno [Discography 1990-2012]/[1999.07.23] Turn A Gundam OST I/09. Moon.mp3
 57:Musica/SUPER EUROBEAT Mix for Sensible Driving and Yielding to Pedestrians.mp3
+58:Musica/Aterrizaje Forzoso - Sólo Un Sueño (2008 Remaster) (2008 Remaster).mp3
 playlist_end
