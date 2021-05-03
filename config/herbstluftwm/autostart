@@ -26,10 +26,10 @@ sxhkd -c ~/.config/herbstluftwm/sxhkd/sxhkdrc &
 
 #conky --daemonize --pause=1 &
 
-albert &
+#albert &
 nm-applet &
 xfce4-power-manager &
-#numlockx on &
+numlockx on &
 blueman-tray &
 run volumeicon &
 variety &
@@ -47,7 +47,7 @@ pkill redshift && sleep 2; redshift &
 # discord &
 # spotify &
 # atom &
-
+tint2 &
 #herbstluftwm start
 hc() {
     herbstclient "$@"
@@ -353,4 +353,4 @@ hc pad 1 30
 ~/.config/polybar/launch-hswm.sh
 
 # The following command will execute vicyos_plank_init.sh (Plank) manually.
-sh $HOME/.config/herbstluftwm/vicyos_plank_init.sh
+# sh $HOME/.config/herbstluftwm/vicyos_plank_init.sh

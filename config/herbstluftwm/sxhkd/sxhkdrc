@@ -354,15 +354,15 @@ F12
 
 #Raises volume
 XF86AudioRaiseVolume
-    amixer set Master 10%+
+    pamixer -i 2
 
 #Lowers volume
 XF86AudioLowerVolume
-    amixer set Master 10%-
+    pamixer -d 2
 
 #Mute
 XF86AudioMute
-    amixer -D pulse set Master 1+ toggle
+    pamixer --toggle-mute
 
 #Playerctl works for Pragha, Spotify and others
 #Delete the line for playerctl if you want to use mpc
@@ -391,11 +391,11 @@ XF86AudioStop
 
 #Brightness up
 XF86MonBrightnessUp
-    xbacklight -inc 10
+   sudo xbacklight -inc 10
 
 #Brightness down
 XF86MonBrightnessDown
-    xbacklight -dec 10
+    sudo xbacklight -dec 10
 
 #########################
 #        POLYBAR        #
