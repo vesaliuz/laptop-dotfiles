@@ -1,8 +1,9 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: stop
-current: 30
+state: play
+current: 25
+time: 89.824000
 random: 1
 repeat: 1
 single: 0
@@ -70,4 +71,9 @@ playlist_begin
 56:Musica/Yoko Kanno [Discography 1990-2012]/[1999.07.23] Turn A Gundam OST I/09. Moon.mp3
 57:Musica/SUPER EUROBEAT Mix for Sensible Driving and Yielding to Pedestrians.mp3
 58:Musica/Aterrizaje Forzoso - Sólo Un Sueño (2008 Remaster) (2008 Remaster).mp3
+59:Musica/iTunes/iTunes Media/Music/Compilations/Now That's What I Call The 80s Hits/80 True.mp3
+60:Musica/Spandau Ballet - The Story. The Very Best Of (2014)/15 - Through the Barricades.m4a
+61:Musica/Spandau Ballet - The Story. The Very Best Of (2014)/17 - This Is The Love.m4a
+62:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0447. Fleetwood Mac - Tusk (1979)/CD 1/5. Sara.m4a
+63:Musica/Starship - Greatest Hits (Ten Years And Change 1979-1991)/08 Sara.mp3
 playlist_end
