@@ -12,7 +12,7 @@ function run {
 
 #Autostart applications
 pkill -u $USER '^picom$'
-picom --experimental-backends --config $HOME/.config/herbstluftwm/picom.conf &
+picom --experimental-backends --config $HOME/.config/picom.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
 

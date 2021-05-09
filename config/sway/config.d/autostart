@@ -1,0 +1,6 @@
+exec autotiling-rs
+exec variety
+exec mpd; sleep 1; mpDris2
+exec mako
+exec /usr/bin/lxpolkit
+exec redshift
