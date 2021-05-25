@@ -1,8 +1,8 @@
-sw_volume: 100
+sw_volume: 98
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 58
+current: 82
 random: 1
 repeat: 1
 single: 0
@@ -25,68 +25,118 @@ playlist_begin
 11:Musica/After the Rain/[Single] CHiCO with HoneyWorks – Nostalgic Rainfall [MP3+320K+ZIP][2018.01.24]/01. ノスタルジックレインフォール.mp3
 12:Musica/Monogatari Series (2009-2016) [MP3]/02 - Nise/[2012.05.23] Nisemonogatari Vol.2 Karen Bee (Part 2) [OP - Futakotome & Music Collection I]/01 - Futakotome.mp3
 13:Musica/Monogatari Series (2009-2016) [MP3]/01 - Bake/[2009.09.30] Bakemonogatari Vol.1 Hitagi Crab [OP - staple stable]/01 - staple stable.mp3
-14:Musica/Roads of old Ballads (2018)/011. David Bowie - Spase oddity.m4a
-15:Musica/iTunes/iTunes Media/Music/Duran Duran/Greatest Hits/03 A View To Kill.m4a
-16:Musica/iTunes/iTunes Media/Music/Duran Duran/Greatest Hits/04 Ordinary World.m4a
-17:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.III)AAC.Lossy/0514. Duran Duran - Rio (1982)/4. Hungry Like The Wolf.m4a
-18:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0373. Electric Light Orchestra - Out Of The Blue (1977)/CD2/4. Mr. Blue Sky.m4a
-19:Musica/iTunes/iTunes Media/Music/Electric Light Orchestra/Electric Light Orchestra Greatest Hits/1-03 Twilight.m4a
-20:Musica/Emmanuel -  Bella señora-1mSGYA2KY5g.aac
-21:Musica/Chica de Humo - Emmanuel (Video Oficial)-SCE39bYioDU.m4a
-22:Musica/Emociones Clandestinas - Un Nuevo Baile.mp3
-23:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0447. Fleetwood Mac - Tusk (1979)/CD 1/5. Sara.m4a
-24:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/02. Gene Kelly With The M-G-M Studio Orchestra - Singin' In The Rain.m4a
-25:Musica/Handel - Coronation Anthems - Willcocks/01 - Zadok the Priest.m4a
-26:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 4/01. Henry Mancini & His Orchestra - The Pink Panther Theme.m4a
-27:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/04. Henry Mancini & His Orchestra and Chorus - Moon River.m4a
-28:Musica/Blood+ OP&ED Singles/BLOOD+ OP2 Single - SEASONS CALL/01 - SEASON'S CALL.m4a
-29:Musica/Inti-Illimani/Inti-Illimani/(1970) Canto Al Programa/21 - Canción De Las Relaciones Internacionales.mp3
-30:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/07. James Brown - Living In America.m4a
-31:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/17. Jefferson Airplane - Somebody To Love.m4a
-32:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 2/01. Kenny Loggins - Footloose.m4a
-33:Musica/Great Teacher Onizuka Music Collection/Kirari - Last Piece [ED1]/01. Kirari - Last Piece.mp3
-34:Musica/星空のエンジェル・クィーン _ デラ・セダカ - 「1000年女王」テーマ曲 --ZsFVVxep1R8.opus
-35:Musica/Great Teacher Onizuka Music Collection/L'Arc~en~Ciel - Driver's High [OP1]/01. L'Arc~en~Ciel - Driver's High.mp3
-36:Musica/MYTH & ROID - TIT for TAT (Cautious Hero OP).mp3
-37:Musica/Yoko Kanno [Discography 1990-2012]/[2003.01.22] Ghost in the Shell Stand Alone Complex OST/11. inner universe.mp3
-38:Musica/PERFUME/Level3 (Bonus Edition)/01 Enter the Sphere.m4a
-39:Musica/PERFUME/Level3 (Bonus Edition)/02 Spring of Life.m4a
-40:Musica/PERFUME/Level3 (Bonus Edition)/03 Magic of Love.m4a
-41:Musica/PERFUME/Perfume - P Cubed 15th Anniversary/Disc 1/14 Edge (Triangle-Mix).m4a
-42:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/03. Peter Nero - Raindrops Keep Fallin' On My Head.m4a
-43:Musica/Great Teacher Onizuka Music Collection/Porno Graffitti - Hitori no Yoru [OP2]/01. Porno Graffitti - Hitori No Yoru.mp3
-44:Musica/Neuva cancion/La Internacional/01-La Internacional.mp3
-45:Musica/Yoko Kanno [Discography 1990-2012]/[2003.01.22] Ghost in the Shell Stand Alone Complex OST/09. lithium flower.mp3
-46:Musica/Roads of old Ballads (2018)/006. Scott McKenzie - San Francisco (Be Sure To Wear Flowers In Your Hair).m4a
-47:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/09. Simon & Garfunkel - Mrs. Robinson.m4a
-48:Musica/iTunes/iTunes Media/Music/Compilations/Now That's What I Call The 80s Hits/80 True.mp3
-49:Musica/Spandau Ballet - The Story. The Very Best Of (2014)/15 - Through the Barricades.m4a
-50:Musica/Spandau Ballet - The Story. The Very Best Of (2014)/17 - This Is The Love.m4a
-51:Musica/Starship - Greatest Hits (Ten Years And Change 1979-1991)/08 Sara.mp3
-52:Musica/Yoko Kanno [Discography 1990-2012]/[2003.03.29] Wolf's Rain OST 1/01. Stray.mp3
-53:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/06. Survivor - Eye Of The Tiger.m4a
-54:Musica/Rurouni Kenshin -2002.09.19- [-Meiji Kenkaku Romantan- Complete CD-Box]himuraTALE/Sequence.1/Scene 01 - Opening & Ending Theme Song/04 - HEART OF SWORD ~Before Daybreak~.mp3
-55:Musica/iTunes/iTunes Media/Music/Compilations/Stranger Things_ Music from the Netflix Original Series/16 Africa.m4a
-56:Musica/iTunes/iTunes Media/Music/Toto/Toto IV/01 Rosanna.m4a
-57:Musica/iTunes/iTunes Media/Music/Compilations/La Musica Italiana Vol.2/1-06 Soli.mp3
-58:Musica/Richard Wagner [FLAC]/2005 - The Complete Operas [43 CD's]/02 - Lohengrin/CD 3/01. Vorspiel.mp3
-59:Musica/Richard Wagner [FLAC]/2005 - The Complete Operas [43 CD's]/02 - Lohengrin/CD 3/02. Aufzug 3 Szene 1 - Treulich gefuhrt, ziehet dahin (Chor).mp3
-60:Musica/Wax_Audio_-_MashopolosII/Wax_Audio_-_The_Mashening/Wax_Audio_-_The_Mashening_-_09_Metallica_Goes_To_Istanbul.mp3
-61:Musica/Wax_Audio_-_MashopolosII/Wax_Audio_-_The_Mashening/Wax_Audio_-_The_Mashening_-_10_And_Krishna_For_All.mp3
-62:Musica/Wax_Audio_-_MashopolosII/Wax_Audio_-_The_Mashening/Wax_Audio_-_The_Mashening_-_13_TrickBattery.mp3
-63:Musica/MashopolosIII/MashopolosIII/Mashopolos III - Mashups For The People/06 Blue Jump.mp3
-64:Musica/Wax Audio - Mashphonic/Wax Audio - Mashphonic/02 Sleeping Bad.mp3
-65:Musica/Wax Audio - Mashphonic/Wax Audio - Mashphonic/04 Breathe and Destroy.mp3
-66:Musica/Weezer - Weezer (Teal Album) (2019) [320]/01. Africa.m4a
-67:Musica/Weezer - Weezer (Teal Album) (2019) [320]/02. Everybody Wants To Rule The World.m4a
-68:Musica/Weezer - Weezer (Teal Album) (2019) [320]/03. Sweet Dreams (Are Made Of This).m4a
-69:Musica/Weezer - Weezer (Teal Album) (2019) [320]/04. Take On Me.m4a
-70:Musica/Weezer - Weezer (Teal Album) (2019) [320]/05. Happy Together.m4a
-71:Musica/Weezer - Weezer (Teal Album) (2019) [320]/06. Paranoid.m4a
-72:Musica/Weezer - Weezer (Teal Album) (2019) [320]/07. Mr. Blue Sky.m4a
-73:Musica/Weezer - Weezer (Teal Album) (2019) [320]/08. No Scrubs.m4a
-74:Musica/Weezer - Weezer (Teal Album) (2019) [320]/09. Billie Jean.m4a
-75:Musica/Weezer - Weezer (Teal Album) (2019) [320]/10. Stand By Me.m4a
-76:Musica/[Album] Earphones – Some Dreams [MP3+320K+ZIP][2018.03.14]/03. 一件落着ゴ用心.mp3
-77:Musica/Yoko Kanno [Discography 1990-2012]/[1999.07.23] Turn A Gundam OST I/09. Moon.mp3
+14:Musica/Daft Punk - Discography - 1994-2013/04 - Albums (Live)/2007 - Alive 2007 (Deluxe Limited Edition) - (320 kbps)/CD 1/03. Television Rules The Nation, Crescendolls.mp3
+15:Musica/Daft Punk - Discography - 1994-2013/04 - Albums (Live)/2007 - Alive 2007 (Deluxe Limited Edition) - (320 kbps)/CD 1/04. Too Long, Steam Machine.mp3
+16:Musica/Daft Punk - Discography - 1994-2013/04 - Albums (Live)/2007 - Alive 2007 (Deluxe Limited Edition) - (320 kbps)/CD 1/05. Around The World, Harder Better Faster Stronger.mp3
+17:Musica/Daft Punk - Discography - 1994-2013/04 - Albums (Live)/2007 - Alive 2007 (Deluxe Limited Edition) - (320 kbps)/CD 1/12. Superheroes, Human After All, Rock'n Roll.mp3
+18:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2001 - Discovery - (320 kbps)/01. One More Time.mp3
+19:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2001 - Discovery - (320 kbps)/02. Aerodynamic.mp3
+20:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2001 - Discovery - (320 kbps)/03. Digital Love.mp3
+21:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2001 - Discovery - (320 kbps)/04. Harder, Better, Faster, Stronger.mp3
+22:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2001 - Discovery - (320 kbps)/05. Crescendolls.mp3
+23:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2001 - Discovery - (320 kbps)/06. Nightvision.mp3
+24:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2001 - Discovery - (320 kbps)/07. Superheroes.mp3
+25:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2001 - Discovery - (320 kbps)/08. High Life.mp3
+26:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2001 - Discovery - (320 kbps)/09. Something About Us.mp3
+27:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2001 - Discovery - (320 kbps)/10. Voyager.mp3
+28:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2001 - Discovery - (320 kbps)/11. Veridis Quo.mp3
+29:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2001 - Discovery - (320 kbps)/12. Short Circuit.mp3
+30:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2001 - Discovery - (320 kbps)/13. Face To Face.mp3
+31:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2001 - Discovery - (320 kbps)/14. Too Long.mp3
+32:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.IV)AAC.Lossy/0851. Daft Punk - Homework (1997)/3. Revolution 909.m4a
+33:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.IV)AAC.Lossy/0851. Daft Punk - Homework (1997)/4. Da Funk.m4a
+34:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.IV)AAC.Lossy/0851. Daft Punk - Homework (1997)/7. Around The World.m4a
+35:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.IV)AAC.Lossy/0851. Daft Punk - Homework (1997)/9. Teachers.m4a
+36:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2005 - Human After All - (320 kbps)/01. Human After All.mp3
+37:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2005 - Human After All - (320 kbps)/02. The Prime Time Of Your Life.mp3
+38:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2005 - Human After All - (320 kbps)/03. Robot Rock.mp3
+39:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2005 - Human After All - (320 kbps)/04. Steam Machine.mp3
+40:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2005 - Human After All - (320 kbps)/08. Television Rules The Nation.mp3
+41:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2005 - Human After All - (320 kbps)/09. Technologic.mp3
+42:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2013 - Random Access Memories - (320 kbps)/01. Give Life Back To Music.mp3
+43:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2013 - Random Access Memories - (320 kbps)/08. Get Lucky (Feat. Pharrell Williams).mp3
+44:Musica/Daft Punk - Discography - 1994-2013/01 - Albums (CD Original)/2013 - Random Access Memories - (320 kbps)/12. Doin' It Right (Feat. Panda Bear).mp3
+45:Musica/Daft Punk - Discography - 1994-2013/02 - Albums (Japan Press)/2013 - Random Access Memories (Japanese Edition) - (320 kbps)/03. Giorgio By Moroder.mp3
+46:Musica/Daft Punk - Discography - 1994-2013/02 - Albums (Japan Press)/2013 - Random Access Memories (Japanese Edition) - (320 kbps)/05. Instant Crush (Feat. Julian Casablancas).mp3
+47:Musica/Roads of old Ballads (2018)/011. David Bowie - Spase oddity.m4a
+48:Musica/iTunes/iTunes Media/Music/Duran Duran/Greatest Hits/03 A View To Kill.m4a
+49:Musica/iTunes/iTunes Media/Music/Duran Duran/Greatest Hits/04 Ordinary World.m4a
+50:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die (vol.III)AAC.Lossy/0514. Duran Duran - Rio (1982)/4. Hungry Like The Wolf.m4a
+51:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0373. Electric Light Orchestra - Out Of The Blue (1977)/CD2/4. Mr. Blue Sky.m4a
+52:Musica/iTunes/iTunes Media/Music/Electric Light Orchestra/Electric Light Orchestra Greatest Hits/1-03 Twilight.m4a
+53:Musica/Emmanuel -  Bella señora-1mSGYA2KY5g.aac
+54:Musica/Chica de Humo - Emmanuel (Video Oficial)-SCE39bYioDU.m4a
+55:Musica/Emociones Clandestinas - Un Nuevo Baile.mp3
+56:Musica/1001 Albums Your Must Hear Before You Die/1001 Albums You Must Hear Before You Die. (vol.II)AAC.Lossy/0447. Fleetwood Mac - Tusk (1979)/CD 1/5. Sara.m4a
+57:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/02. Gene Kelly With The M-G-M Studio Orchestra - Singin' In The Rain.m4a
+58:Musica/Handel - Coronation Anthems - Willcocks/01 - Zadok the Priest.m4a
+59:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 4/01. Henry Mancini & His Orchestra - The Pink Panther Theme.m4a
+60:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/04. Henry Mancini & His Orchestra and Chorus - Moon River.m4a
+61:Musica/Blood+ OP&ED Singles/BLOOD+ OP2 Single - SEASONS CALL/01 - SEASON'S CALL.m4a
+62:Musica/Inti-Illimani/Inti-Illimani/(1970) Canto Al Programa/21 - Canción De Las Relaciones Internacionales.mp3
+63:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/07. James Brown - Living In America.m4a
+64:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/17. Jefferson Airplane - Somebody To Love.m4a
+65:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 2/01. Kenny Loggins - Footloose.m4a
+66:Musica/Great Teacher Onizuka Music Collection/Kirari - Last Piece [ED1]/01. Kirari - Last Piece.mp3
+67:Musica/星空のエンジェル・クィーン _ デラ・セダカ - 「1000年女王」テーマ曲 --ZsFVVxep1R8.opus
+68:Musica/Great Teacher Onizuka Music Collection/L'Arc~en~Ciel - Driver's High [OP1]/01. L'Arc~en~Ciel - Driver's High.mp3
+69:Musica/MYTH & ROID - TIT for TAT (Cautious Hero OP).mp3
+70:Musica/Yoko Kanno [Discography 1990-2012]/[2003.01.22] Ghost in the Shell Stand Alone Complex OST/11. inner universe.mp3
+71:Musica/PERFUME/Level3 (Bonus Edition)/01 Enter the Sphere.m4a
+72:Musica/PERFUME/Level3 (Bonus Edition)/02 Spring of Life.m4a
+73:Musica/PERFUME/Level3 (Bonus Edition)/03 Magic of Love.m4a
+74:Musica/PERFUME/Perfume - P Cubed 15th Anniversary/Disc 1/14 Edge (Triangle-Mix).m4a
+75:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 3/03. Peter Nero - Raindrops Keep Fallin' On My Head.m4a
+76:Musica/Great Teacher Onizuka Music Collection/Porno Graffitti - Hitori no Yoru [OP2]/01. Porno Graffitti - Hitori No Yoru.mp3
+77:Musica/Neuva cancion/La Internacional/01-La Internacional.mp3
+78:Musica/Yoko Kanno [Discography 1990-2012]/[2003.01.22] Ghost in the Shell Stand Alone Complex OST/09. lithium flower.mp3
+79:Musica/Roads of old Ballads (2018)/006. Scott McKenzie - San Francisco (Be Sure To Wear Flowers In Your Hair).m4a
+80:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/09. Simon & Garfunkel - Mrs. Robinson.m4a
+81:Musica/iTunes/iTunes Media/Music/Compilations/Now That's What I Call The 80s Hits/80 True.mp3
+82:Musica/Spandau Ballet - The Story. The Very Best Of (2014)/15 - Through the Barricades.m4a
+83:Musica/Spandau Ballet - The Story. The Very Best Of (2014)/17 - This Is The Love.m4a
+84:Musica/Starship - Greatest Hits (Ten Years And Change 1979-1991)/08 Sara.mp3
+85:Musica/Yoko Kanno [Discography 1990-2012]/[2003.03.29] Wolf's Rain OST 1/01. Stray.mp3
+86:Musica/VA - Ultimate  Movies - 4-CD-(2015)-[FLAC]-[TFM]/Disc 1/06. Survivor - Eye Of The Tiger.m4a
+87:Musica/Rurouni Kenshin -2002.09.19- [-Meiji Kenkaku Romantan- Complete CD-Box]himuraTALE/Sequence.1/Scene 01 - Opening & Ending Theme Song/04 - HEART OF SWORD ~Before Daybreak~.mp3
+88:Musica/iTunes/iTunes Media/Music/Compilations/Stranger Things_ Music from the Netflix Original Series/16 Africa.m4a
+89:Musica/iTunes/iTunes Media/Music/Toto/Toto IV/01 Rosanna.m4a
+90:Musica/Richard Wagner [FLAC]/2005 - The Complete Operas [43 CD's]/02 - Lohengrin/CD 3/01. Vorspiel.mp3
+91:Musica/Richard Wagner [FLAC]/2005 - The Complete Operas [43 CD's]/02 - Lohengrin/CD 3/02. Aufzug 3 Szene 1 - Treulich gefuhrt, ziehet dahin (Chor).mp3
+92:Musica/Wax_Audio_-_MashopolosII/Wax_Audio_-_The_Mashening/Wax_Audio_-_The_Mashening_-_09_Metallica_Goes_To_Istanbul.mp3
+93:Musica/Wax_Audio_-_MashopolosII/Wax_Audio_-_The_Mashening/Wax_Audio_-_The_Mashening_-_10_And_Krishna_For_All.mp3
+94:Musica/Wax_Audio_-_MashopolosII/Wax_Audio_-_The_Mashening/Wax_Audio_-_The_Mashening_-_13_TrickBattery.mp3
+95:Musica/MashopolosIII/MashopolosIII/Mashopolos III - Mashups For The People/06 Blue Jump.mp3
+96:Musica/Wax Audio - Mashphonic/Wax Audio - Mashphonic/02 Sleeping Bad.mp3
+97:Musica/Wax Audio - Mashphonic/Wax Audio - Mashphonic/04 Breathe and Destroy.mp3
+98:Musica/Weezer - Weezer (Teal Album) (2019) [320]/01. Africa.m4a
+99:Musica/Weezer - Weezer (Teal Album) (2019) [320]/02. Everybody Wants To Rule The World.m4a
+100:Musica/Weezer - Weezer (Teal Album) (2019) [320]/03. Sweet Dreams (Are Made Of This).m4a
+101:Musica/Weezer - Weezer (Teal Album) (2019) [320]/04. Take On Me.m4a
+102:Musica/Weezer - Weezer (Teal Album) (2019) [320]/05. Happy Together.m4a
+103:Musica/Weezer - Weezer (Teal Album) (2019) [320]/06. Paranoid.m4a
+104:Musica/Weezer - Weezer (Teal Album) (2019) [320]/07. Mr. Blue Sky.m4a
+105:Musica/Weezer - Weezer (Teal Album) (2019) [320]/08. No Scrubs.m4a
+106:Musica/Weezer - Weezer (Teal Album) (2019) [320]/09. Billie Jean.m4a
+107:Musica/Weezer - Weezer (Teal Album) (2019) [320]/10. Stand By Me.m4a
+108:Musica/[Album] Earphones – Some Dreams [MP3+320K+ZIP][2018.03.14]/03. 一件落着ゴ用心.mp3
+109:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2010.04.28] けいおん!!｜GO! GO! MANIAC/01. GO! GO! MANIAC.mp3
+110:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2010.04.28] けいおん!!｜Listen!!/01. Listen!!.mp3
+111:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2010.08.04] けいおん!!｜NO, Thank You!/01. NO, Thank You!.mp3
+112:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2010.08.04] けいおん!!｜Utauyo!! MIRACLE/01. Utauyo!! MIRACLE.mp3
+113:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2010.09.08] けいおん!!｜ごはんはおかず ・ U&I/01. ごはんはおかず.mp3
+114:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2010.09.08] けいおん!!｜ごはんはおかず ・ U&I/02. U&I.mp3
+115:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2010.06.02] けいおん!!｜ぴゅあぴゅあはーと/01. ぴゅあぴゅあはーと.mp3
+116:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2010.06.02] けいおん!!｜ぴゅあぴゅあはーと/02. 桜が丘女子高等学校校歌 [Rock Ver.].mp3
+117:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2011.12.07] 映画けいおん!｜Singing!/01. Singing!.mp3
+118:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2011.12.07] 映画けいおん!｜Unmei♪Wa♪Endless!/01. Unmei♪Wa♪Endless!.mp3
+119:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2011.12.07] 映画けいおん!｜Unmei♪Wa♪Endless!/02. いちばんいっぱい.mp3
+120:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2009.04.22] けいおん!｜Cagayake! GIRLS/01. Cagayake!GIRLS.mp3
+121:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2009.04.22] けいおん!｜Don't say ''lazy''/01. Don't say ''lazy''.mp3
+122:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2009.05.20] けいおん!｜ふわふわ時間/01. ふわふわ時間.mp3
+123:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2009.05.20] けいおん!｜ふわふわ時間/02. 翼をください.mp3
+124:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2010.06.23] けいおん!!｜ラヴ ''LOVE''/01. ラヴ.mp3
+125:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2009.08.12] けいおん!｜Maddy Candy/01. Maddy Candy.mp3
+126:Musica/[Nemuri] K-ON! けいおん! (2009-2013) [MP3]/[2009-2011] ANIME SINGLES/[2009.08.12] けいおん!｜Maddy Candy/02. Hell The World.mp3
+127:Musica/Yoko Kanno [Discography 1990-2012]/[1999.07.23] Turn A Gundam OST I/09. Moon.mp3
 playlist_end

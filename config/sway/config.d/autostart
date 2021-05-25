@@ -4,3 +4,4 @@ exec mpd; sleep 1; mpDris2
 exec mako
 exec /usr/bin/lxpolkit
 exec redshift
+# exec wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)

@@ -25,7 +25,7 @@ set $powermenu nwgbar
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output * bg $(cat ~/.config/variety/wallpaper/wallpaper.jpg.txt) fill
+# output * bg $(cat ~/.config/variety/wallpaper/wallpaper.jpg.txt) fill
 #
 # Example configuration:
 #
@@ -202,12 +202,6 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #
-# Status Bar:
-#
-# Read `man 5 sway-bar` for more information about this section.
-bar {
-    swaybar_command waybar
-}
 
 ###################################
 #   MULTIMEDIA KEYS
@@ -221,4 +215,44 @@ bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
+###################################
+#   VARIETY KEYS
+###################################
+
+#Wallpaper trash
+    bindsym Mod1+t exec --no-startup-id variety -t
+ 
+#Wallpaper next
+    bindsym Mod1+n exec --no-startup-id variety -n
+  
+#Wallpaper previous
+    bindsym Mod1+p exec --no-startup-id variety -p
+
+#Wallpaper favorite
+    bindsym Mod1+f exec --no-startup-id variety -f
+  
+#Wallpaper pause
+    bindsym Mod1+Up exec --no-startup-id variety --pause
+  
+#Wallpaper resume
+    bindsym Mod1+Down exec --no-startup-id variety --resume
+ 
+#########################
+# #VARIETY KEYS WITH PYWAL#
+ #########################
+   
+#Wallpaper trash
+    bindsym Mod1+Shift+t exec --no-startup-id variety -t && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+ 
+#Wallpaper next
+    bindsym Mod1+Shift+n exec --no-startup-id variety -n && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+ 
+#Wallpaper previous
+    bindsym Mod1+Shift+p exec --no-startup-id variety -p && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+  
+#Wallpaper favorite
+    bindsym Mod1+Shift+f exec --no-startup-id variety -f && wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
+  
+#Wallpaper update
+    bindsym Mod1+Shift+u exec --no-startup-id wal -i $(cat $HOME/.config/variety/wallpaper/wallpaper.jpg.txt)&
 
