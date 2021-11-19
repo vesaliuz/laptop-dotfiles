@@ -1,5 +1,5 @@
-alias ls='exa -lah --color=auto'
-alias lss='exa -la | grep "^d" && ls -la | grep "^-" && ls -la | grep "^l"'
+alias ls='lsd -la --color=auto'
+alias lss='lsd -la | grep "^d" && ls -la | grep "^-" && ls -la | grep "^l"'
 alias fc='sudo fc-cache -fv'
 alias cp='advcp -g'
 alias mv='advmv -g'
