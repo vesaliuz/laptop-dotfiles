@@ -51,6 +51,7 @@ Plug 'dylanaraps/wal.vim'
 Plug 'morhetz/gruvbox'
 Plug 'arcticicestudio/nord-vim'
 Plug 'dylanaraps/wal.vim'
+Plug 'lervag/vimtex'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
