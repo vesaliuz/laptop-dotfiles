@@ -104,11 +104,11 @@ alt + d
       ~/.config/rofi/launchers/launcher.sh
 #Htop
 super + h
-    termite 'htop task manager' -e htop
+    alacritty 'htop task manager' -e htop
 
 #music player
 super + m
-    termite 'ncmpcpp music player' -e ncmpcpp
+    alacritty 'ncmpcpp music player' -e ncmpcpp
 
 # terminator
 super + alt + t
@@ -128,12 +128,12 @@ super + Escape
 
 #Terminal emulator
 super + Return
-	termite
+	alacritty
 
 
 #File-Manager
 alt + shift + Return
-	termite -e ranger
+	alacritty -e ranger
 
 #Keyboard dependent
 #File-Manager

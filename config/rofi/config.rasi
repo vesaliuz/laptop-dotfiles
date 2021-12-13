@@ -1,3 +1,8 @@
+/** Basic config file **/
+
 configuration {
-theme: "~/.config/rofi/arc.rasi";
+  show-icons:         true;
+  icon-theme:         "candy-icons";
 }
+//@theme "/usr/share/rofi/themes/Arc-Dark-Numix.rasi"
+@theme "/usr/share/rofi/themes/Arc-Dark-Numix.rasi"
