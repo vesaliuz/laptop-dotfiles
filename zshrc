@@ -145,6 +145,9 @@ export EDITOR='vim'
 # alias 2tbdisk="cd /run/media/vesaliuz/2TBDISK"
 # alias cdgames="cd /run/media/vesaliuz/GAMES"
 
+# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='bg=12'
+
+
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.
 # ( ) # Hide shell job control messages.

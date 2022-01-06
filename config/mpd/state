@@ -2,8 +2,8 @@ sw_volume: 98
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: pause
-current: 7
-time: 164.632000
+current: 18
+time: 1.402000
 random: 1
 repeat: 1
 single: 0
@@ -50,4 +50,15 @@ playlist_begin
 35:Musica/iTunes/iTunes Media/Music/Compilations/T2 Trainspotting (Original Motion Picture Soundtrack)/1-10 Radio Ga Ga.m4a
 36:Musica/iTunes/iTunes Media/Music/Compilations/The Top 500 Heavy Metal Songs of All Time/251 Stone Cold Crazy.mp3
 37:Musica/Depeche Mode - The Singles '86-'98 (1998)/CD 1/08 Enjoy The Silence.mp3
+38:Musica/Animetal Albums/Animetal/[1997.03.23] - Animetal Marathon/02 - Gatchaman no Uta.mp3
+39:Musica/Animetal Albums/Animetal/[1997.03.23] - Animetal Marathon/32 - Mazinger Z.mp3
+40:Musica/Animetal Albums/Animetal/[1997.03.23] - Animetal Marathon/17 - Tiger Mask.mp3
+41:Musica/Animetal Albums/Animetal/[1997.03.23] - Animetal Marathon/20 - Galaxy Express 999.mp3
+42:Musica/Animetal Albums/Animetal/[2003.06.25] - Animetal Marathon V/02 - Pegasus Fantasy.mp3
+43:Musica/Animetal Albums/Animetal/[2003.06.25] - Animetal Marathon V/10 - Kinnikuman Go Fight!.mp3
+44:Musica/Animetal Albums/Animetal/[2003.06.25] - Animetal Marathon V/11 - Blazing Kinnikuman.mp3
+45:Musica/Animetal Albums/Animetal/[2004.09.22] - Animetal Marathon VI/33 - I am Akira.mp3
+46:Musica/Animetal Albums/Animetal Lady/ANIMETAL LADY MARATHON/08 - Theme of Maya the Bee.mp3
+47:Musica/Animetal Albums/Animetal Lady/ANIMETAL LADY MARATHON/02 - Cutie Honey.mp3
+48:Musica/Animetal Albums/Animetal Lady/ANIMETAL LADY MARATHON/12 - Oshiete.mp3
 playlist_end
